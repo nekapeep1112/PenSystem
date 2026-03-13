@@ -1,0 +1,19 @@
+# Environment variables (API keys)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+
+# Reports
+redteam_report_*.txt
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
