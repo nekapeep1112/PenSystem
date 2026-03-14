@@ -430,7 +430,7 @@ def analyze_with_gpt(ctx: FingerprintResult) -> str:
         "custom_themes":      ctx.custom_themes,
         "headers":            ctx.headers,
         "raw_samples": {
-            k: v[:500] for k, v in ctx.raw_data.items() if v
+            k: str(v)[:500] for k, v in ctx.raw_data.items() if v
         }
     }
 
